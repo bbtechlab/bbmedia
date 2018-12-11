@@ -1,1 +1,37 @@
-include ':mobile', ':tv'
+// ///////////////////////////////////////////////////////////////////////////////////////
+//
+//       Filename:  setting.gradle
+//
+//    Description:  
+//
+//        Version:  1.0
+//        Created:  11/12/2018 04:39:28 PM
+//       Revision:  none
+//       Compiler:  none
+//
+//         Author:  Bamboo Do,  dovanquyen.vn@gmail.com
+//								bamboo@bbtechlab.com   
+//        Company:  Copyright (c) 2018 BBTECHLAB.
+//					http://bbtechlab.com 
+//
+// ///////////////////////////////////////////////////////////////////////////////////////
+gradle.ext.bbmediaRoot = settingsDir
+
+def modulePrefix = ':'
+if (gradle.ext.has('bbmediaModulePrefix')) {
+    modulePrefix += gradle.ext.bbmediaModulePrefix
+}
+
+// ////////////////////////////
+// broadmediaplayer application
+// mobile app/ tv app
+// ////////////////////////////
+include modulePrefix + 'apps-mobile'
+include modulePrefix + 'apps-tv'
+project(modulePrefix + 'apps-mobile').projectDir = new File(rootDir, 'apps/mobile')
+project(modulePrefix + 'apps-tv').projectDir = new File(rootDir, 'apps/tv')
+
+// ////////////////////////////
+// bbmedia components.
+// ////////////////////////////
+apply from: 'core_settings.gradle'

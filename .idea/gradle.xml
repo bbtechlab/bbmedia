@@ -8,8 +8,33 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/mobile" />
-            <option value="$PROJECT_DIR$/tv" />
+            <option value="$PROJECT_DIR$/apps/mobile" />
+            <option value="$PROJECT_DIR$/apps/tv" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/cast" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/cronet" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/ffmpeg" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/flac" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/gvr" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/ima" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/jobdispatcher" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/leanback" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/mediasession" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/okhttp" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/opus" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/rtmp" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/extensions/vp9" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/library/all" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/library/core" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/library/dash" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/library/hls" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/library/smoothstreaming" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/library/ui" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/testutils" />
+            <option value="$PROJECT_DIR$/exlibs/ExoPlayer/testutils_robolectric" />
+            <option value="$PROJECT_DIR$/exlibs/InteractivePlayerView/library" />
+            <option value="$PROJECT_DIR$/modules/core" />
+            <option value="$PROJECT_DIR$/modules/models" />
+            <option value="$PROJECT_DIR$/modules/presenters" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
