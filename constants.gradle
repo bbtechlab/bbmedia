@@ -1,0 +1,33 @@
+// ///////////////////////////////////////////////////////////////////////////////////////
+//
+//       Filename:  constants.gradle
+//
+//    Description:  define constant values for compiling project 
+//
+//        Version:  1.0
+//        Created:  10/12/2018 11:26:51 PM
+//       Revision:  none
+//       Compiler:  none
+//
+//         Author:  Bamboo Do,  dovanquyen.vn@gmail.com
+//								bamboo@bbtechlab.com   
+//        Company:  Copyright (c) 2018 BBTECHLAB.
+//					http://bbtechlab.com 
+//
+// ///////////////////////////////////////////////////////////////////////////////////////
+  
+project.ext {
+    releaseVersion = '0.0.1'
+    releaseVersionCode = 000001
+    minSdkVersion = 21
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.3'
+    testSupportLibraryVersion = '0.5'
+    supportLibraryVersion = '27.1.1'
+    junitVersion = '4.12'
+    modulePrefix = ':'
+    if (gradle.ext.has('bbmediaModulePrefix')) {
+        modulePrefix += gradle.ext.bbmediaModulePrefix
+    }
+}
