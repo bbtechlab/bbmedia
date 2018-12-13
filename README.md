@@ -40,7 +40,7 @@ Next, add the following to your project's `settings.gradle` file, replacing
 
 ```gradle
 gradle.ext.bbmediaRoot = 'path/to/bbmedia'
-gradle.ext.exoplayerModulePrefix = 'bbmedia-'
+gradle.ext.bbmediaModulePrefix = 'bbmedia-'
 apply from: new File(gradle.ext.bbmediaRoot, 'core_settings.gradle')
 ```
 
