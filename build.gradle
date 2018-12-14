@@ -19,6 +19,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+        // CLING/ UPnP Lib
+        mavenCentral()
+        maven {
+            url 'http://4thline.org/m2'
+        }
     }
 }
 
